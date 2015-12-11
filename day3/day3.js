@@ -14,7 +14,7 @@ Array.prototype.contains = function(obj) {
 
 // actual program
 
-dir_str = require('fs').readFileSync('./dir.dat').toString()
+dir_str = require('fs').readFileSync('./dir2.dat').toString()
 
 santa_pos = [0,0];
 num_houses_visited = 1;
@@ -55,5 +55,4 @@ for(var indx = 0; indx < dir_str.length; indx++){
 }
 
 console.log(num_houses_visited);
-
 
