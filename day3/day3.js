@@ -57,7 +57,3 @@ for(var indx = 0; indx < dir_str.length; indx++){
 console.log(num_houses_visited);
 
 
-
-
-
-

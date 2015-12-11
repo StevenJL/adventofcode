@@ -12,16 +12,6 @@ var arrayMin = function (arr) {
   return min;
 };
 
-Array.prototype.contains = function(obj) {
-    var i = this.length;
-    while (i--) {
-        if (this[i] === obj) {
-            return true;
-        }
-    }
-    return false;
-}
-
 // actual program
 
 dims_array = require('fs').readFileSync('./dim.dat').toString().split('\n');
@@ -50,6 +40,5 @@ for(var indx = 0; indx < dims_array.length; indx++){
 }
 
 console.log(area);
-
 
 
